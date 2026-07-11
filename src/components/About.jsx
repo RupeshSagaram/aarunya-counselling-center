@@ -31,12 +31,8 @@ function About() {
             Consultant Psychologist
           </p>
 
-          {/* Placeholder bio — edit this paragraph with the real background/approach */}
-          <p className="mt-4 text-brand-charcoal/80">
-            [Add bio here — background, qualifications, years of experience, and
-            therapeutic approach. This is placeholder text so you can see how the
-            section looks; replace it with Shailaja's own story whenever it's ready.]
-          </p>
+          {/* Placeholder bio — replace this line with Shailaja's real bio whenever it's ready */}
+          <p className="mt-4 text-brand-charcoal/80">Bio to be added soon.</p>
         </div>
       </div>
     </section>
