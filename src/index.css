@@ -1,0 +1,22 @@
+/* This single import pulls in all of Tailwind's utility classes (e.g. flex, p-4, text-lg). */
+@import "tailwindcss";
+
+/* The @theme block lets us define custom design tokens that become Tailwind
+   utility classes automatically. For example, --color-brand-teal below lets
+   us write className="bg-brand-teal" or "text-brand-teal" anywhere in our JSX. */
+@theme {
+  --color-brand-teal: #7fa99b;
+  --color-brand-teal-dark: #5f8a7c;
+  --color-brand-teal-light: #eaf2ef;
+  --color-brand-charcoal: #333333;
+}
+
+html {
+  /* Makes clicking a nav link (e.g. #services) glide down the page instead of jumping instantly. */
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--color-brand-charcoal);
+}
